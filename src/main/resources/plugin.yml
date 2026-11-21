@@ -1,0 +1,12 @@
+name: ScriptedMaces
+version: 1.0.0
+main: com.scripted.maces.Main
+api-version: '1.21'
+commands:
+  scriptmace:
+    description: Give scripted Heaven or Hell maces
+    usage: /scriptmace give <heaven|hell> [player]
+    permission: scriptedmaces.admin
+permissions:
+  scriptedmaces.admin:
+    default: op
